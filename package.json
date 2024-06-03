@@ -5,24 +5,23 @@
     "main": "./dist/index.js",
     "type": "module",
     "module": "./dist/index.js",
+    "private": "false",
     "scripts": {
         "start": "tsup",
         "build": "tsup --minify && tsc --build tsconfig.json",
         "test": "jest"
     },
-    "homepage": "https://sidebar.hey1010.com",
+    "homepage": "https://github.com/pphatdev/checking-validation",
     "repository": {
-        "url": "git+https://github.com/pphatdev/sidebar.git"
+        "url": "git+https://github.com/check-validation/sidebar.git"
     },
     "bugs": {
-        "url": "https://github.com/pphatdev/sidebar/issues"
+        "url": "https://github.com/check-validation/sidebar/issues"
     },
     "keywords": [
         "sophat",
-        "@sophat/sidebar",
-        "sidebar",
-        "ui",
-        "tailwindcss"
+        "@sophat/check-validation",
+        "check-validation"
     ],
     "maintainers": [
         "pphatdev <info.sophat@gmail.com> (https://github.com/pphatdev)"
@@ -40,5 +39,8 @@
     },
     "directories": {
         "test": "test"
+    },
+    "publishConfig": {
+        "@pphatdev:registry": "https://npm.pkg.github.com/"
     }
 }
