@@ -10,7 +10,7 @@
 
 
 ## npm: ***@sophat/check-validation***
-The `@sophat/check-validation` checking validation.
+The `@sophat/check-validation` checking validation. Purpose to be used in the frontend.
 
 ## ⬇️ Installation
 ```sh
@@ -19,12 +19,12 @@ npm install @sophat/check-validation --dev
 
 ## 📂 Usage
 
-### Import
+### ⚡ Import
 ```js
 import { Validate } from "@sophat/check-validation";
 ```
 
-# Checking Phone
+### 📞 Checking Phone
 ```js
 Validate.phone("010 125 6783") // true
 Validate.phone("+855 10 125 6783") // true
@@ -33,20 +33,20 @@ Validate.phone("010 125 67832") // false
 Validate.phone("+855 10 125 67832") // false
 ```
 
-# Check Email
+### 📧 Check Email
 ```js
 Validate.email("info@pphat.me") // true
 Validate.email("info@pphat.xyz") // true
 Validate.email("-info@pphat.xyz") // false
 ```
 
-# Check Password
+### 🔐 Check Password
 ```js
 Validate.password("@Ashsdl93") // true
 Validate.password("123abc") // false
 ```
 
-# Check Is Empty
+### 🫣 Check Is Empty
 > Ignoring Spacing and null able
 
 ```js
@@ -56,7 +56,7 @@ Validate.isEmpty("    ") // true
 Validate.isEmpty() // true
 ```
 
-# Check Is Number
+### 🔢 Check Is Number
 
 ```js
 Validate.isNumber("123") // true
