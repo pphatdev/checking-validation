@@ -3,6 +3,7 @@
         "outDir": "./dist",
         "allowJs": false,
         "declaration": true,
+        "lib": ["ES2022"],
         "target": "es6"
     },
     "include": ["./src/types/*", "src/index.ts"],

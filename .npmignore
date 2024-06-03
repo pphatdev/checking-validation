@@ -1,3 +1,5 @@
 # NodePackages
 node_modules/
-website/
+website/node_modules/
+website/dist/
+src/

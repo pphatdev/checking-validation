@@ -1,13 +1,13 @@
 {
-    "name": "@sophat/sidebar",
+    "name": "@sophat/check-validation",
     "version": "0.0.1",
-    "description": "@sophat/sidebar build for sidebar ui supported with tailwindcss",
+    "description": "@sophat/check-validation",
     "main": "./dist/index.js",
     "type": "module",
     "module": "./dist/index.js",
     "scripts": {
-        "start": "tsc --watch",
-        "build": "tsc"
+        "start": "tsup && tsc --watch",
+        "build": "tsup --minify && tsc --build tsconfig.json"
     },
     "homepage": "https://sidebar.hey1010.com",
     "repository": {
@@ -17,7 +17,11 @@
         "url": "https://github.com/pphatdev/sidebar/issues"
     },
     "keywords": [
-        "sophat", "@sophat/sidebar", "sidebar", "ui", "tailwindcss"
+        "sophat",
+        "@sophat/sidebar",
+        "sidebar",
+        "ui",
+        "tailwindcss"
     ],
     "maintainers": [
         {
@@ -27,5 +31,11 @@
         }
     ],
     "author": "pphatdev <info.sophat@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.1.0"
+    },
+    "dependencies": {
+        "typescript": "^5.4.5"
+    }
 }
