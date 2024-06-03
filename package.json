@@ -6,8 +6,9 @@
     "type": "module",
     "module": "./dist/index.js",
     "scripts": {
-        "start": "tsup && tsc --watch",
-        "build": "tsup --minify && tsc --build tsconfig.json"
+        "start": "tsup",
+        "build": "tsup --minify && tsc --build tsconfig.json",
+        "test": "jest"
     },
     "homepage": "https://sidebar.hey1010.com",
     "repository": {
@@ -33,9 +34,12 @@
     "author": "pphatdev <info.sophat@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "ts-jest": "^29.1.4",
+        "ts-node": "^10.9.2",
         "tsup": "^8.1.0"
     },
     "dependencies": {
+        "jest-cucumber": "^4.4.0",
         "typescript": "^5.4.5"
     }
 }
