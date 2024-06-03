@@ -5,7 +5,8 @@
         "declaration": true,
         "lib": ["ES2022"],
         "target": "es6",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "module": "nodenext"
     },
     "include": ["./src/types/*", "src/index.ts"],
 }
