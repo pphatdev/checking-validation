@@ -29,6 +29,7 @@
     "author": "pphatdev <info.sophat@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "@types/jest": "^29.5.12",
         "ts-jest": "^29.1.4",
         "ts-node": "^10.9.2",
         "tsup": "^8.1.0"
