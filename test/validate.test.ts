@@ -56,6 +56,16 @@ test('Validate.isEmpty(" ") => true', () => {
     expect(result).toBe(true)
 })
 
+test('Validate.isEmpty() => true', () => {
+    const result = Validate.isEmpty()
+    expect(result).toBe(true)
+})
+
+test('Validate.isEmpty(null) => true', () => {
+    const result = Validate.isEmpty(null)
+    expect(result).toBe(true)
+})
+
 test('Validate.isEmpty("abc") => flase', () => {
     const result = Validate.isEmpty('abc')
     expect(result).toBe(false)
