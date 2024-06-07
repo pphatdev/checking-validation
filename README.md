@@ -46,7 +46,7 @@ Validate.password("@Ashsdl93") // true
 Validate.password("123abc") // false
 ```
 
-### 🫣 Check Is Empty
+### ⭕ Check Is Empty
 > Ignoring Spacing and null able
 
 ```js
