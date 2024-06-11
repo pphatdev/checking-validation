@@ -5,7 +5,6 @@
     "main": "./dist/index.js",
     "type": "module",
     "module": "./dist/index.js",
-    "private": "false",
     "scripts": {
         "start": "tsup",
         "build": "tsup --minify && tsc --build tsconfig.json",
