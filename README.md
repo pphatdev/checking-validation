@@ -8,6 +8,8 @@
     <img src="https://img.shields.io/github/stars/pphatdev?style=flat-square&label=Star&labelColor=d42932&color=%231fa8e0">
 </p>
 
+[![Node.js Package](https://github.com/pphatdev/checking-validation/actions/workflows/npm-publish-github-packages.yml/badge.svg)](https://github.com/pphatdev/checking-validation/actions/workflows/npm-publish-github-packages.yml)
+
 
 ## npm: ***@sophat/check-validation***
 The `@sophat/check-validation` checking validation. Purpose to be used in the frontend.
